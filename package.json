@@ -1,0 +1,26 @@
+{
+  "name": "vpl",
+  "version": "0.1.0",
+  "description": "VPL - Virtual Phone Line. Experimental VM alert sender using email-to-SMS carrier gateways.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "send": "node scripts/send.js"
+  },
+  "keywords": [
+    "sms",
+    "vm-alerts",
+    "email-to-sms",
+    "virtual-phone-line"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "nodemailer": "^6.9.16"
+  }
+}
